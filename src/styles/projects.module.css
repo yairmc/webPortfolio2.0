@@ -1,0 +1,61 @@
+.container {
+    background-color: var(--secundary);
+    width: auto;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.text {
+    text-transform: uppercase;
+    color: var(--primary);
+    text-align: center;
+    font-size: 48px;
+    width: 25rem;
+    border-bottom: 6px var(--primary) solid;
+    margin: 10px 0;
+}
+
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 20rem;
+    box-shadow: -8px -8px 12px 0px #ffffff41,
+        -4px -4px 8px 0px #ffffffb0,
+        8px 8px 12px 0px #bdc3c73e,
+        4px 4px 8px 0px #bdc3c7bb;
+}
+
+.projectCard img {
+    border-radius: 1rem;
+    width: 25rem;
+    height: 15rem;
+    transition: 1s ease;
+}
+
+.projectCard p {
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.projectCard a {
+    text-decoration: none;
+}

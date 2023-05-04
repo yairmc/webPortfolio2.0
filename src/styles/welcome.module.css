@@ -1,0 +1,26 @@
+.content {
+    background-color: var(--primary);
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55rem;
+    height: 10rem;
+    border-radius: 1rem;
+    box-shadow: -8px -8px 12px 0px #ffffff1a,
+        8px 8px 12px 0px #0000002c;
+}
+
+.text {
+    text-align: center;
+    color: var(--third);
+    font-size: 36px;
+    margin: 0;
+}

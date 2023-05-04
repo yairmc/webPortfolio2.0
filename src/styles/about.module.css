@@ -1,0 +1,111 @@
+.container {
+    background-color: var(--secundary);
+    width: auto;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.text {
+    text-transform: uppercase;
+    color: var(--primary);
+    text-align: center;
+    font-size: 48px;
+    width: 25rem;
+    border-bottom: 6px var(--primary) solid;
+    margin: 10px 0;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.card {
+    padding: 1.5rem 2rem;
+    font-size: 48px;
+    color: var(--primary);
+    text-transform: capitalize;
+    height: auto;
+    width: 20rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: -8px -8px 12px 0px #ffffff41,
+        -4px -4px 8px 0px #ffffffb0,
+        8px 8px 12px 0px #bdc3c73e,
+        4px 4px 8px 0px #bdc3c7bb;
+}
+
+.meContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40rem;
+    justify-content: center;
+}
+
+.imageContainer {
+    width: 27rem;
+    height: 27rem;
+    border-radius: 15px;
+    box-shadow: -8px -8px 12px 0px #ffffff41,
+        -4px -4px 8px 0px #ffffffb0,
+        8px 8px 12px 0px #bdc3c73e,
+        4px 4px 8px 0px #bdc3c7bb;
+    display: flex;
+    justify-content: center;
+    background-image: url("../public/me.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    margin: 10px 0 0 0;
+    font-size: 30px;
+    color: var(--primary);
+}
+
+.subtitle {
+    width: 40rem;
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.softSkills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 30rem;
+}
+
+.skillCard {
+    margin: 10px 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    box-shadow: -8px -8px 12px 0px #ffffff41,
+        -4px -4px 8px 0px #ffffffb0,
+        8px 8px 12px 0px #bdc3c73e,
+        4px 4px 8px 0px #bdc3c7bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.skillCard img {
+    width: 80px;
+    height: auto;
+}
