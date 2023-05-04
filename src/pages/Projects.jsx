@@ -1,4 +1,12 @@
 import styles from "../styles/projects.module.css";
+import adminVet from "../public/projects/admiVet.png";
+import blogCafe from "../public/projects/blogCafe.png";
+import cotizadorCripto from "../public/projects/cotizadorCripto.png";
+import foodComunity from "../public/projects/foodComunity.png";
+import giftApp from "../public/projects/giftApp.png";
+import planificadorGastos from "../public/projects/planificadorGastos.png";
+import pomodoro from "../public/projects/pomodoro.png";
+import traductor from "../public/projects/traductor.png";
 
 const Projects = () => {
   return (
@@ -14,7 +22,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/admivet.png" alt="" />
+              <img src={adminVet} alt="" />
               <p>veterinary administrator</p>
             </a>
           </div>
@@ -24,7 +32,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/blogCafe.png" alt="" />
+              <img src={blogCafe} alt="" />
               <p>coffee blog</p>
             </a>
           </div>
@@ -34,7 +42,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/cotizadorCripto.png" alt="" />
+              <img src={cotizadorCripto} alt="" />
               <p>cryptocurrency quote</p>
             </a>
           </div>
@@ -44,7 +52,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/foodComunity.png" alt="" />
+              <img src={foodComunity} alt="" />
               <p>Food Community</p>
             </a>
           </div>
@@ -54,7 +62,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/giftApp.png" alt="" />
+              <img src={giftApp} alt="" />
               <p>Gift Expert App</p>
             </a>
           </div>
@@ -64,7 +72,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/planificadorGastos.png" alt="" />
+              <img src={planificadorGastos} alt="" />
               <p>expense planner</p>
             </a>
           </div>
@@ -74,7 +82,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/pomodoro.png" alt="" />
+              <img src={pomodoro} alt="" />
               <p>Pomodoro Timer</p>
             </a>
           </div>
@@ -84,7 +92,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/projects/traductor.png" alt="" />
+              <img src={traductor} alt="" />
               <p>Universal translator</p>
             </a>
           </div>

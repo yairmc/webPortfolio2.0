@@ -1,6 +1,11 @@
 import styles from "../styles/contact.module.css";
 import emailjs from "@emailjs/browser";
 
+import fbIcon from "../public/contact/facebook.png";
+import instaIcon from "../public/contact/insta.png";
+import twitterIcon from "../public/contact/linked.png";
+import linkedIcon from "../public/contact/twitter.png";
+
 const Contact = () => {
   const sendEmail = (event) => {
     event.preventDefault();
@@ -30,7 +35,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/contact/facebook.png" alt="icon" />
+              <img src={fbIcon} alt="icon" />
               <p>Facebook</p>
             </a>
 
@@ -40,7 +45,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/contact/insta.png" alt="icon" />
+              <img src={instaIcon} alt="icon" />
               <p>Instagram</p>
             </a>
             <a
@@ -49,7 +54,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/contact/twitter.png" alt="icon" />
+              <img src={twitterIcon} alt="icon" />
               <p>Twitter</p>
             </a>
             <a
@@ -58,7 +63,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../public/contact/linked.png" alt="icon" />
+              <img src={linkedIcon} alt="icon" />
               <p>LinkedIn</p>
             </a>
           </div>

@@ -1,4 +1,16 @@
 import styles from "../styles/about.module.css";
+import html from "../public/html.png";
+import css from "../public/css.png";
+import javascript from "../public/javascript.png";
+import react from "../public/react.png";
+import docker from "../public/docker.png";
+import git from "../public/git.png";
+import mysql from "../public/mysql.png";
+import postgres from "../public/postgresql.png";
+import typescript from "../public/typescript.png";
+import node from "../public/node.png";
+import nest from "../public/nest.png";
+import mongodb from "../public/mongo.png";
 const About = () => {
   return (
     <>
@@ -25,40 +37,41 @@ const About = () => {
           </div>
           <div className={styles.softSkills}>
             <div className={styles.skillCard}>
-              <img src="../public/html.png" alt="docker" />
+              <img src={html} alt="docker" />
+              <p>hola</p>
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/css.png" alt="docker" />
+              <img src={css} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/javascript.png" alt="docker" />
+              <img src={javascript} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/react.png" alt="docker" />
+              <img src={react} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/docker.png" alt="docker" />
+              <img src={docker} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/git.png" alt="docker" />
+              <img src={git} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/mysql.png" alt="docker" />
+              <img src={mysql} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/postgresql.png" alt="docker" />
+              <img src={postgres} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/typescript.png" alt="docker" />
+              <img src={typescript} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/node.png" alt="docker" />
+              <img src={node} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/nest.png" alt="docker" />
+              <img src={nest} alt="docker" />
             </div>
             <div className={styles.skillCard}>
-              <img src="../public/mongo.png" alt="docker" />
+              <img src={mongodb} alt="docker" />
             </div>
           </div>
         </div>
