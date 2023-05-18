@@ -324,8 +324,6 @@
         width: 20rem;
     }
 
-
-
     .card {
         padding: 10px 15px;
         font-size: 30px;
@@ -334,19 +332,14 @@
         border-radius: 5px;
     }
 
-    .meContainer {
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-    }
 
     .foto {
         width: 10rem;
     }
 
     .imageContainer {
-        width: 30rem;
-        height: 30rem;
+        width: 20rem;
+        height: 20rem;
         background-size: cover;
     }
 
@@ -358,31 +351,21 @@
     .subtitle {
         margin: 0 0 20px 0;
         font-size: 20px;
-        width: 40rem;
+        width: 30rem;
     }
 
     .softSkills {
-        margin: 10px 0;
-        grid-template-columns: repeat(6, 1fr);
-        height: 10rem;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .skillCard {
         margin: 10px 15px;
-        width: 60px;
-        height: 50px;
+        width: 90px;
+        height: 80px;
         border-radius: 5px;
-
-
     }
 
     .skillCard img {
-        width: 50px;
+        width: 70px;
     }
 }
-
-/* Ordenador de escritorio medio */
-@media only screen and (min-width:1367px)and (max-width:1440) {}
-
-/* PC de escritorio grande */
-@media only screen and (min-width:1441px) {}

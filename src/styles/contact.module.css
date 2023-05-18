@@ -140,19 +140,214 @@
 }
 
 /* Movil pequeño */
-@media only screen and (max-width:360px) {}
+@media only screen and (max-width:360px) {
+
+    .text {
+        font-size: 18px;
+        width: 8rem;
+        border-bottom: 2px var(--primary) solid;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 1rem;
+    }
+
+    .socialContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .socialNetwork {
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: .5rem;
+        height: 3rem;
+        width: 8.5rem;
+
+    }
+
+    .socialNetwork img {
+        width: 2.5rem;
+        height: auto;
+    }
+
+
+    .socialNetwork p {
+        margin-left: .5rem;
+        font-size: 14px;
+    }
+
+
+    .form p {
+        font-size: 13px;
+        margin: 2.5rem 0;
+    }
+
+    .input {
+        margin-top: .5rem;
+        border-radius: 5px;
+        font-size: 14px;
+        width: 15rem;
+        height: 1rem;
+    }
+
+    .message {
+        margin-top: .5rem;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+
+    .send {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+}
 
 /* Movil medio */
-@media only screen and (min-width:361px) and (max-width:375px) {}
+@media only screen and (min-width:361px) and (max-width:375px) {
+
+    .text {
+        font-size: 20px;
+        width: 10rem;
+        border-bottom: 3px var(--primary) solid;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1rem;
+
+    }
+
+    .socialContainer {
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .socialNetwork {
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: .5rem;
+        height: 3.5rem;
+        width: 15rem;
+
+    }
+
+    .socialNetwork img {
+        width: 3.5rem;
+    }
+
+
+    .socialNetwork p {
+        margin-left: 2rem;
+        font-size: 20px;
+    }
+
+
+    .form p {
+        font-size: 16px;
+    }
+
+    .input {
+        margin-top: .5rem;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 19rem;
+        height: 1.5rem;
+    }
+
+    .message {
+        margin-top: .5rem;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+
+    .send {
+        font-size: 16px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
 
 /* Smartphone */
-@media only screen and (min-width:376px)and (max-width:720px) {}
+@media only screen and (min-width:376px)and (max-width:720px) {
 
-/* Ordenador portatil medio */
-@media only screen and (min-width:721px)and (max-width:1366px) {}
+    .text {
+        font-size: 25px;
+        width: 15rem;
+        border-bottom: 4px var(--primary) solid;
+    }
 
-/* Ordenador de escritorio medio */
-@media only screen and (min-width:1367px)and (max-width:1440) {}
+    .contactContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 1rem;
 
-/* PC de escritorio grande */
-@media only screen and (min-width:1441px) {}
+    }
+
+    .socialContainer {
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .socialNetwork {
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: .5rem;
+        height: 5rem;
+        width: 17rem;
+
+    }
+
+    .socialNetwork img {
+        width: 4rem;
+    }
+
+
+    .socialNetwork p {
+        margin-left: 2.5rem;
+        font-size: 25px;
+    }
+
+
+    .form p {
+        font-size: 16px;
+    }
+
+    .input {
+        margin-top: .5rem;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 19rem;
+        height: 1.5rem;
+    }
+
+    .message {
+        margin-top: .5rem;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+
+    .send {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
