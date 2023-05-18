@@ -43,7 +43,7 @@
 
 .meContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 5rem;
 }
 
@@ -52,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 40rem;
+    margin-left: 5rem;
     justify-content: center;
 }
 
@@ -317,7 +317,7 @@
 }
 
 /* Ordenador portatil medio */
-@media only screen and (min-width:721px)and (max-width:1366px) {
+@media only screen and (min-width:721px)and (max-width:1066px) {
     .text {
         font-size: 50px;
         border-bottom: 6px var(--primary) solid;
