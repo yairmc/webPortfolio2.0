@@ -38,7 +38,6 @@ const About = () => {
           <div className={styles.softSkills}>
             <div className={styles.skillCard}>
               <img src={html} alt="docker" />
-              <p>hola</p>
             </div>
             <div className={styles.skillCard}>
               <img src={css} alt="docker" />

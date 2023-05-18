@@ -109,3 +109,280 @@
     width: 80px;
     height: auto;
 }
+
+
+/* Movil pequeño */
+@media only screen and (max-width:360px) {
+
+    .text {
+        font-size: 24px;
+        border-bottom: 2px var(--primary) solid;
+        width: 10rem;
+    }
+
+    .skillsContainer {
+        margin: 2px;
+    }
+
+    .card {
+        padding: 5px 8px;
+        font-size: 12px;
+        height: auto;
+        width: 5rem;
+        border-radius: 5px;
+    }
+
+    .meContainer {
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+    }
+
+    .foto {
+        width: 10rem;
+    }
+
+    .imageContainer {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 10px;
+        background-image: url("../public/me.png");
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+
+        font-size: 14px;
+        width: 17rem;
+    }
+
+    .softSkills {
+        margin: 20px 0;
+        grid-template-columns: repeat(6, 1fr);
+        height: 8rem;
+    }
+
+    .skillCard {
+        margin: 5px 3px;
+        width: 40px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    .skillCard img {
+        width: 30px;
+        height: auto;
+    }
+
+}
+
+/* Movil medio */
+@media only screen and (min-width:361px) and (max-width:375px) {
+    .text {
+        font-size: 24px;
+        border-bottom: 4px var(--primary) solid;
+        width: 15rem;
+    }
+
+    .skillsContainer {
+        margin: 2px;
+    }
+
+    .card {
+        padding: 5px 8px;
+        font-size: 12px;
+        height: auto;
+        width: 5rem;
+        border-radius: 5px;
+    }
+
+    .meContainer {
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+    }
+
+    .foto {
+        width: 10rem;
+    }
+
+    .imageContainer {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 10px;
+        background-image: url("../public/me.png");
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .subtitle {
+        margin: 10px 0;
+        font-size: 15px;
+        width: 20rem;
+    }
+
+    .softSkills {
+        margin: 10px 0;
+        grid-template-columns: repeat(6, 1fr);
+        height: 8rem;
+    }
+
+    .skillCard {
+        margin: 5px 8px;
+        width: 40px;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    .skillCard img {
+        width: 40px;
+        height: auto;
+    }
+}
+
+/* Smartphone */
+@media only screen and (min-width:376px)and (max-width:720px) {
+    .text {
+        font-size: 30px;
+        border-bottom: 4px var(--primary) solid;
+        width: 15rem;
+    }
+
+    .skillsContainer {
+        margin: 20px 0;
+    }
+
+    .card {
+        padding: 5px 8px;
+        font-size: 12px;
+        height: auto;
+        width: 5rem;
+        border-radius: 5px;
+    }
+
+    .meContainer {
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+    }
+
+    .foto {
+        width: 10rem;
+    }
+
+    .imageContainer {
+        width: 20rem;
+        height: 20rem;
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .subtitle {
+        margin: 0 0 20px 0;
+        font-size: 18px;
+        width: 20rem;
+    }
+
+    .softSkills {
+        margin: 10px 0;
+        grid-template-columns: repeat(6, 1fr);
+        height: 8rem;
+    }
+
+    .skillCard {
+        margin: 10px 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+
+
+    }
+
+    .skillCard img {
+        width: 50px;
+        height: auto;
+    }
+}
+
+/* Ordenador portatil medio */
+@media only screen and (min-width:721px)and (max-width:1366px) {
+    .text {
+        font-size: 50px;
+        border-bottom: 6px var(--primary) solid;
+        width: 20rem;
+    }
+
+
+
+    .card {
+        padding: 10px 15px;
+        font-size: 30px;
+        height: auto;
+        width: 13rem;
+        border-radius: 5px;
+    }
+
+    .meContainer {
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+    }
+
+    .foto {
+        width: 10rem;
+    }
+
+    .imageContainer {
+        width: 30rem;
+        height: 30rem;
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .subtitle {
+        margin: 0 0 20px 0;
+        font-size: 20px;
+        width: 40rem;
+    }
+
+    .softSkills {
+        margin: 10px 0;
+        grid-template-columns: repeat(6, 1fr);
+        height: 10rem;
+    }
+
+    .skillCard {
+        margin: 10px 15px;
+        width: 60px;
+        height: 50px;
+        border-radius: 5px;
+
+
+    }
+
+    .skillCard img {
+        width: 50px;
+    }
+}
+
+/* Ordenador de escritorio medio */
+@media only screen and (min-width:1367px)and (max-width:1440) {}
+
+/* PC de escritorio grande */
+@media only screen and (min-width:1441px) {}

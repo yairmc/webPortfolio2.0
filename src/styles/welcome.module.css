@@ -24,3 +24,93 @@
     font-size: 36px;
     margin: 0;
 }
+
+/* Móvil pequeño */
+@media only screen and (max-width: 360px) {
+    .card {
+        width: 90%;
+        height: 8rem;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+}
+
+/* Móvil medio */
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+    .card {
+        width: 90%;
+        height: 8rem;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+}
+
+/* Smartphone grande */
+@media only screen and (min-width: 376px) and (max-width: 720px) {
+    .card {
+        width: 80%;
+        height: 10rem;
+    }
+
+    .text {
+        font-size: 32px;
+    }
+}
+
+/* Ordenador portátil medio */
+@media only screen and (min-width: 721px) and (max-width: 1366px) {
+    .card {
+        width: 70%;
+        height: 12rem;
+    }
+
+    .text {
+        font-size: 36px;
+    }
+}
+
+/* Ordenador de escritorio medio */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+    .card {
+        width: 60%;
+        height: 15rem;
+    }
+
+    .text {
+        font-size: 42px;
+    }
+}
+
+/* PC de escritorio grande */
+@media only screen and (min-width: 1441px) {
+    .card {
+        width: 50%;
+        height: 20rem;
+    }
+
+    .text {
+        font-size: 48px;
+    }
+}
+
+/* Movil pequeño */
+@media only screen and (max-width:360px) {}
+
+/* Movil medio */
+@media only screen and (min-width:361px) and (max-width:375px) {}
+
+/* Smartphone */
+@media only screen and (min-width:376px)and (max-width:720px) {}
+
+/* Ordenador portatil medio */
+@media only screen and (min-width:721px)and (max-width:1366px) {}
+
+/* Ordenador de escritorio medio */
+@media only screen and (min-width:1367px)and (max-width:1440) {}
+
+/* PC de escritorio grande */
+@media only screen and (min-width:1441px) {}
