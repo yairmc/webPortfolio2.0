@@ -22,9 +22,10 @@
 
 
 .projectsContainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -101,11 +102,6 @@
         border-bottom: 3px var(--primary) solid;
     }
 
-
-    .projectsContainer {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .projectCard {
         margin: 10px 0;
         border-radius: 5px;
@@ -131,11 +127,6 @@
         font-size: 35px;
         width: 15rem;
         border-bottom: 4px var(--primary) solid;
-    }
-
-
-    .projectsContainer {
-        grid-template-columns: repeat(2, 1fr);
     }
 
     .projectCard {
@@ -165,11 +156,6 @@
         border-bottom: 5px var(--primary) solid;
     }
 
-
-    .projectsContainer {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
     .projectCard {
         margin: 20px 0;
         border-radius: 5px;
@@ -191,9 +177,6 @@
 
 @media only screen and (min-width:1367px) {
 
-    .projectsContainer {
-        grid-template-columns: repeat(4, 1fr);
-    }
 
     .projectCard {
         margin-top: 3rem;
