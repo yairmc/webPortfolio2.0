@@ -2,6 +2,9 @@
     background-color: var(--secundary);
     width: auto;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -22,8 +25,9 @@
 
 .skillsContainer {
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 10px;
 }
 
 .card {
@@ -42,9 +46,10 @@
 }
 
 .meContainer {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin: 5rem;
+    justify-content: center;
+    margin: 5rem 0;
 }
 
 .foto {
@@ -52,7 +57,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 5rem;
     justify-content: center;
 }
 
@@ -291,7 +295,7 @@
 
     .subtitle {
         margin: 0 0 20px 0;
-        font-size: 18px;
+        font-size: 15px;
         width: 20rem;
     }
 
@@ -330,6 +334,10 @@
         height: auto;
         width: 13rem;
         border-radius: 5px;
+    }
+
+    .meContainer {
+        justify-content: space-around;
     }
 
 

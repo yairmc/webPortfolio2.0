@@ -18,6 +18,7 @@
     width: 25rem;
     border-bottom: 6px var(--primary) solid;
     margin: 10px 0;
+
 }
 
 
@@ -26,6 +27,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 5;
 }
 
 .projectsContainer a {
@@ -51,6 +53,7 @@
         8px 8px 12px 0px #bdc3c73e,
         4px 4px 8px 0px #bdc3c7bb;
     perspective: 2000px;
+    transition: ease 1s;
 }
 
 .projectInner {
@@ -200,8 +203,9 @@
         border-bottom: 5px var(--primary) solid;
     }
 
+
     .projectCard {
-        margin: 20px 0;
+        margin: 10px;
         border-radius: 5px;
         width: 16rem;
         height: 15rem;
@@ -225,17 +229,16 @@
 
 @media only screen and (min-width:1367px) {
 
-
     .projectCard {
         margin-top: 3rem;
         border-radius: 5px;
-        width: 20rem;
-        height: 18rem;
+        width: 19rem;
+        height: 17rem;
     }
 
     .projectCard img {
         border-radius: 5px;
-        width: 20rem;
+        width: 19rem;
         height: 14rem;
     }
 
