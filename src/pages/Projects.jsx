@@ -16,86 +16,147 @@ const Projects = () => {
           <p className={styles.text}>projects</p>
         </div>
         <div className={styles.projectsContainer}>
-          <div className={styles.projectCard}>
-            <a
-              href="https://appveterinaria-prueba-y.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={adminVet} alt="" />
-              <p>veterinary administrator</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://blogdecafe-prueba01.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={blogCafe} alt="" />
-              <p>coffee blog</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://cotizador-criptomonedas-y.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={cotizadorCripto} alt="" />
-              <p>cryptocurrency quote</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://foodcomunity.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={foodComunity} alt="" />
-              <p>Food Community</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://y-gifs.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={giftApp} alt="" />
-              <p>Gift Expert App</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://control-presupuestos-y.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={planificadorGastos} alt="" />
-              <p>expense planner</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://pomodoro-itson.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={pomodoro} alt="" />
-              <p>Pomodoro Timer</p>
-            </a>
-          </div>
-          <div className={styles.projectCard}>
-            <a
-              href="https://y-translator.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={traductor} alt="" />
-              <p>Universal translator</p>
-            </a>
-          </div>
+          <a
+            href="https://appveterinaria-prueba-y.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img className={styles.cardFront} src={adminVet} alt="" />
+                <p className={styles.cardBack}>
+                  Appointment organizer practice project using React, html,
+                  tailwind and deploy in netlify, saving the information in
+                  localStorage
+                </p>
+              </div>
+              <h3>veterinary administrator</h3>
+            </div>
+          </a>
+          <a
+            href="https://blogdecafe-prueba01.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img className={styles.cardFront} src={blogCafe} alt="" />
+                <p className={styles.cardBack}>
+                  Practice project of a simple coffee themed blog using html and
+                  css practicing responsiveness with deploy on netlify
+                </p>
+              </div>
+              <h3>coffee blog</h3>
+            </div>
+          </a>
+          <a
+            href="https://cotizador-criptomonedas-y.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img
+                  className={styles.cardFront}
+                  src={cotizadorCripto}
+                  alt=""
+                />
+                <p className={styles.cardBack}>
+                  Practice project of a cryptocurrency value quoter using react,
+                  css. creating components and consuming APIs in real time
+                  practicing responsiveness with deploy in netlify
+                </p>
+              </div>
+              <h3>cryptocurrency quote</h3>
+            </div>
+          </a>
+          <a
+            href="https://foodcomunity.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img className={styles.cardFront} src={foodComunity} alt="" />
+                <p className={styles.cardBack}>
+                  Altruistic fullstack project of a funder of a donation manager
+                  using React and css technologies on the FrontEnd deploying on
+                  Netlify and using nodejs and postgres on the BackEnd side
+                  deploying to Railway
+                </p>
+              </div>
+              <h3>Food Comunity</h3>
+            </div>
+          </a>
+          <a
+            href="https://y-gifs.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img className={styles.cardFront} src={giftApp} alt="" />
+                <p className={styles.cardBack}>
+                  Practice project using React and css, practicing the
+                  consumption of material using APIs
+                </p>
+              </div>
+              <h3>Gif Expert App</h3>
+            </div>
+          </a>
+          <a
+            href="https://control-presupuestos-y.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img
+                  className={styles.cardFront}
+                  src={planificadorGastos}
+                  alt=""
+                />
+                <p className={styles.cardBack}>
+                  Practice project for expense control using React and css with
+                  deploy in Netlify
+                </p>
+              </div>
+              <h3>expense planner</h3>
+            </div>
+          </a>
+          <a
+            href="https://pomodoro-itson.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img className={styles.cardFront} src={pomodoro} alt="" />
+                <p className={styles.cardBack}>
+                  Final project of my career combining the practice of the
+                  pomodoro with a todo list, previously designed in figma and
+                  built using Html, javascript and css with deploy in Netlify
+                </p>
+              </div>
+              <h3>Pomodoro Timer</h3>
+            </div>
+          </a>
+          <a
+            href="https://y-translator.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectCard}>
+              <div className={styles.projectInner}>
+                <img className={styles.cardFront} src={traductor} alt="" />
+                <p className={styles.cardBack}>
+                  Practice project using html, css and javascript with
+                  consumption of APIs doing deployment in Netlify
+                </p>
+              </div>
+              <h3>Universal translator</h3>
+            </div>
+          </a>
         </div>
       </div>
     </>
