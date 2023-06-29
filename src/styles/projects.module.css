@@ -124,6 +124,10 @@
         font-size: 10px;
     }
 
+    .projectCard p {
+        font-size: 10px;
+    }
+
 }
 
 /* Movil medio */
@@ -148,6 +152,10 @@
     }
 
     .projectCard h3 {
+        font-size: 10px;
+    }
+
+    .projectCard p {
         font-size: 10px;
     }
 
@@ -178,6 +186,10 @@
         font-size: 13px;
     }
 
+    .projectCard p {
+        font-size: 12px;
+    }
+
 }
 
 /* Ordenador portatil medio */
@@ -205,6 +217,10 @@
         font-size: 18px;
     }
 
+    .projectCard p {
+        font-size: 18px;
+    }
+
 }
 
 @media only screen and (min-width:1367px) {
@@ -224,6 +240,10 @@
     }
 
     .projectCard h3 {
+        font-size: 20px;
+    }
+
+    .projectCard p {
         font-size: 20px;
     }
 }
