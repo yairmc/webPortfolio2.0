@@ -151,6 +151,10 @@
         border-bottom: 3px var(--primary) solid;
     }
 
+    .descriptionPage {
+        margin: 0;
+    }
+
     .projectCard {
         margin: 10px 0;
         border-radius: 5px;
@@ -184,6 +188,7 @@
 
     .descriptionPage {
         font-size: 20px;
+        margin: 0;
     }
 
 
