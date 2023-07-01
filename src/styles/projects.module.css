@@ -114,8 +114,6 @@
         font-size: 15px;
     }
 
-
-
     .projectsContainer {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -125,14 +123,14 @@
     .projectCard {
         margin: 5px 0;
         border-radius: 5px;
-        width: 8rem;
-        height: 7rem;
+        width: 7rem;
+        height: 6rem;
     }
 
     .projectCard img {
         border-radius: 5px;
-        width: 8rem;
-        height: 5rem;
+        width: 7rem;
+        height: 4rem;
     }
 
     .projectCard h3 {
@@ -225,7 +223,7 @@
         margin: 10px;
         border-radius: 5px;
         width: 16rem;
-        height: 13rem;
+        height: 15rem;
     }
 
     .projectCard img {
@@ -250,7 +248,7 @@
         margin-top: 3rem;
         border-radius: 5px;
         width: 19rem;
-        height: 15rem;
+        height: 17rem;
     }
 
     .projectCard img {
