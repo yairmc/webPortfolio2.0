@@ -15,6 +15,9 @@ const Projects = () => {
         <div className={styles.header}>
           <p className={styles.text}>projects</p>
         </div>
+        <h2 className={styles.descriptionPage}>
+          Functional projects carried out 2022-2023
+        </h2>
         <div className={styles.projectsContainer}>
           <a
             href="https://appveterinaria-prueba-y.netlify.app"

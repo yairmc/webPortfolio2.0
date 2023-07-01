@@ -21,6 +21,11 @@
 
 }
 
+.descriptionPage {
+    width: 100%;
+    color: var(--primary);
+    text-align: center;
+}
 
 .projectsContainer {
     display: flex;
@@ -105,9 +110,16 @@
         border-bottom: 2px var(--primary) solid;
     }
 
+    .descriptionPage {
+        font-size: 15px;
+    }
+
+
 
     .projectsContainer {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 1rem;
     }
 
     .projectCard {
@@ -171,6 +183,11 @@
         width: 15rem;
         border-bottom: 4px var(--primary) solid;
     }
+
+    .descriptionPage {
+        font-size: 20px;
+    }
+
 
     .projectCard {
         margin: 10px 0;
