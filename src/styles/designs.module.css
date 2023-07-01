@@ -35,7 +35,7 @@
     justify-content: center;
     width: 80%;
     height: 100%;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 
@@ -44,7 +44,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
-    margin-top: 1rem;
     border-radius: 10px;
     box-shadow: -8px -8px 12px 0px #ffffff41,
         -4px -4px 8px 0px #ffffffb0,
@@ -80,6 +79,28 @@
         border-bottom: 2px var(--primary) solid;
     }
 
+    .descriptionPage {
+        font-size: 15px;
+    }
+
+    .designsContainer {
+        width: 100%;
+    }
+
+
+    .card {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .image {
+        height: 60%;
+    }
+
+    .linkCard {
+        font-size: 10px;
+    }
+
 }
 
 /* Movil medio */
@@ -100,12 +121,16 @@
 
 
     .card {
-        width: 13rem;
-        height: 13rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .image {
         height: 60%;
+    }
+
+    .linkCard {
+        font-size: 15px;
     }
 
 }
