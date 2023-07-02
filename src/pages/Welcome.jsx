@@ -8,7 +8,7 @@ const welcome = () => {
       <div className={styles.content}>
         <ReactPlayer
           url={video}
-          playing={true}
+          playing
           loop
           className={styles.miVideo}
           width="max-content"
