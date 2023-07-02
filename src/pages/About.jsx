@@ -1,16 +1,18 @@
 import styles from "../styles/about.module.css";
-import html from "../public/html.png";
-import css from "../public/css.png";
-import javascript from "../public/javascript.png";
-import react from "../public/react.png";
-import docker from "../public/docker.png";
-import git from "../public/git.png";
-import mysql from "../public/mysql.png";
-import postgres from "../public/postgresql.png";
-import typescript from "../public/typescript.png";
-import node from "../public/node.png";
-import nest from "../public/nest.png";
-import mongodb from "../public/mongo.png";
+import {
+  html,
+  css,
+  javascript,
+  react,
+  docker,
+  git,
+  mysql,
+  postgres,
+  typescript,
+  node,
+  nest,
+  mongodb,
+} from "../public/about/";
 const About = () => {
   return (
     <>

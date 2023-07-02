@@ -1,5 +1,5 @@
 .content {
-    background-color: var(--primary);
+    position: relative;
     width: auto;
     height: 100vh;
     display: flex;
@@ -8,14 +8,17 @@
 }
 
 .card {
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 55rem;
     height: 10rem;
-    border-radius: 1rem;
-    box-shadow: -8px -8px 12px 0px #ffffff1a,
-        8px 8px 12px 0px #0000002c;
+}
+
+.miVideo {
+    position: absolute;
+    z-index: -1;
 }
 
 .text {
@@ -24,6 +27,8 @@
     font-size: 36px;
     margin: 0;
 }
+
+
 
 /* Móvil pequeño */
 @media only screen and (max-width: 360px) {

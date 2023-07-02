@@ -70,7 +70,7 @@
         4px 4px 8px 0px #bdc3c7bb;
     display: flex;
     justify-content: center;
-    background-image: url("../public/me.png");
+    background-image: url("../public/about/me.png");
     background-repeat: no-repeat;
     background-position: center;
 }
