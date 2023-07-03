@@ -1,4 +1,5 @@
 .content {
+    background-color: var(--primary);
     position: relative;
     width: auto;
     height: 100vh;
@@ -8,7 +9,6 @@
 }
 
 .card {
-    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +16,7 @@
     height: 10rem;
 }
 
-.miVideo {
-    position: absolute;
-    z-index: -1;
-}
+
 
 .text {
     text-align: center;
