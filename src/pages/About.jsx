@@ -1,18 +1,6 @@
 import styles from "../styles/about.module.css";
-import {
-  html,
-  css,
-  javascript,
-  react,
-  docker,
-  git,
-  mysql,
-  postgres,
-  typescript,
-  node,
-  nest,
-  mongodb,
-} from "../public/about/";
+
+import { SkillCard } from "../components/SkillCard";
 const About = () => {
   return (
     <>
@@ -38,42 +26,7 @@ const About = () => {
             </p>
           </div>
           <div className={styles.softSkills}>
-            <div className={styles.skillCard}>
-              <img src={html} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={css} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={javascript} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={react} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={docker} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={git} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={mysql} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={postgres} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={typescript} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={node} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={nest} alt="docker" />
-            </div>
-            <div className={styles.skillCard}>
-              <img src={mongodb} alt="docker" />
-            </div>
+            <SkillCard />
           </div>
         </div>
       </div>
