@@ -5,6 +5,7 @@ import gpsF from "../public/designProjects/gpsF.png";
 import neumorphismF from "../public/designProjects/neumorphismF.png";
 import petsearchF from "../public/designProjects/petsearchF.png";
 import pomodoroF from "../public/designProjects/pomodoroF.png";
+import landingPage from "../public/designProjects/landingPage.png";
 
 export const DesignCards = () => {
   return (
@@ -36,17 +37,7 @@ export const DesignCards = () => {
           <p className={styles.imageDescription}>Food Comunity</p>
         </div>
       </a>
-      <a
-        className={styles.linkCard}
-        href="https://www.figma.com/file/cCbIbUI3forZi9o9ihortN/Proyecto-GPS?type=design&mode=design&t=JkLzFoPnmu8kkfSQ-1"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div className={styles.card}>
-          <img loading="lazy" className={styles.image} src={gpsF} alt="" />
-          <p className={styles.imageDescription}>GPS APP</p>
-        </div>
-      </a>
+
       <a
         className={styles.linkCard}
         href="https://www.figma.com/file/rYJoKHIlSSJg5Q616YH4eb/Neumorphism?type=design&mode=design&t=JkLzFoPnmu8kkfSQ-1"
@@ -88,6 +79,22 @@ export const DesignCards = () => {
         <div className={styles.card}>
           <img loading="lazy" className={styles.image} src={pomodoroF} alt="" />
           <p className={styles.imageDescription}>Pomodoro Timer</p>
+        </div>
+      </a>
+      <a
+        className={styles.linkCard}
+        href="https://www.figma.com/proto/DMuipiwtkLoa5nA7VoXjet/Curso?type=design&node-id=110-2&t=GlUCYTXypy4fNfOi-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=110%3A2&mode=design"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={styles.card}>
+          <img
+            loading="lazy"
+            className={styles.image}
+            src={landingPage}
+            alt=""
+          />
+          <p className={styles.imageDescription}>Landing Page</p>
         </div>
       </a>
     </div>

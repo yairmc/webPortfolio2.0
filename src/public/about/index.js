@@ -10,6 +10,10 @@ import typescript from "./typescript.png";
 import node from "./node.png";
 import nest from "./nest.png";
 import mongodb from "./mongo.png";
+import figma from "./figma.png";
+import testing from "./testing.png";
+import tailwind from "./tailwind.png";
+import bootstrap from "./bootstrap.png";
 
 export {
   html,
@@ -24,6 +28,10 @@ export {
   node,
   nest,
   mongodb,
+  figma,
+  testing,
+  tailwind,
+  bootstrap,
 };
 // export * from "../css.png";
 // export * from "../javascript.png";

@@ -12,6 +12,9 @@ import {
   node,
   nest,
   mongodb,
+  figma,
+  tailwind,
+  bootstrap,
 } from "../public/about/";
 
 export const SkillCard = () => {
@@ -28,6 +31,9 @@ export const SkillCard = () => {
     node,
     nest,
     mongodb,
+    figma,
+    tailwind,
+    bootstrap,
   ];
   return (
     <>
