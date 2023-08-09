@@ -150,14 +150,18 @@
     }
 
 
+    .contactContainer {
+        width: 90%;
+        margin: 2rem;
+    }
 
     .socialContainer {
         width: 100%;
+        gap: 2rem;
     }
 
     .socialNetwork {
         justify-content: space-around;
-        width: 70%;
     }
 
     .socialNetwork p {
