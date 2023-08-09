@@ -86,9 +86,9 @@ export const ProjectCard = () => {
                 Cotizador Criptomonedas
               </h3>
               <p className={styles.cardDescription}>
-                Practice project of a cryptocurrency value quoter using react,
-                css. creating components and consuming APIs in real time
-                practicing responsiveness with deploy in netlify
+                Project of a cryptocurrency value quoter using react, css.
+                creating components and consuming APIs in real time with deploy
+                in netlify
               </p>
             </div>
             <img

@@ -169,7 +169,7 @@
 
 
     .cardLink {
-        width: 100%;
+        width: 90%;
         height: 70%;
     }
 
@@ -189,13 +189,12 @@
 
     .cardIconsInformation {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
     }
 
 
     .cardIcons img {
-        width: 1.5rem;
+        width: 100%;
     }
 
 }
