@@ -25,24 +25,26 @@
 
 .contactContainer {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    margin: 5rem;
+    align-items: center;
+    max-height: 80%;
 
 }
 
 .socialContainer {
     display: flex;
-    flex-direction: column;
-    min-width: 35%;
-    height: auto;
+    justify-content: center;
     gap: 1rem;
-
+    width: 100%;
 }
 
 .socialNetwork {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    min-width: 10%;
+    padding: 0 1rem;
+    gap: 1rem;
     border-radius: 25px;
     box-shadow: -8px -8px 12px 0px #ffffff41,
         -4px -4px 8px 0px #ffffffb0,
@@ -55,13 +57,12 @@
 
 .socialNetwork img {
     border-radius: 35px;
-    margin-left: 1rem;
 }
 
 
 .socialNetwork p {
     align-items: center;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     color: var();
     text-align: end;
@@ -75,14 +76,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 30%;
+    height: 80%;
     gap: 1rem;
+    box-shadow: -8px -8px 12px 0px #ffffff41,
+        -4px -4px 8px 0px #ffffffb0,
+        8px 8px 12px 0px #bdc3c73e,
+        4px 4px 8px 0px #bdc3c7bb;
+    border-radius: 20px;
 }
 
 .form p {
     font-size: 24px;
     font-weight: 600;
+    width: 80%;
     color: var(--primary);
+}
+
+.contactImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    box-shadow: -8px -8px 12px 0px #ffffff41,
+        -4px -4px 8px 0px #ffffffb0,
+        8px 8px 12px 0px #bdc3c73e,
+        4px 4px 8px 0px #bdc3c7bb;
+}
+
+.contactImage img {
+    width: 90%;
+    height: 95%;
+    border-radius: 100%;
+
 }
 
 .input {
@@ -98,7 +126,6 @@
 }
 
 .message {
-    margin-top: 1rem;
     border-radius: 15px;
     font-size: 24px;
     font-weight: 500;
@@ -118,7 +145,7 @@
         4px 4px 8px 0px #bdc3c7bb;
     border: none;
     width: 50%;
-
+    margin-bottom: 1rem;
     height: auto;
     font-size: 24px;
     cursor: pointer;
@@ -142,6 +169,8 @@
 }
 
 
+
+
 /* Telphone  */
 @media (max-width: 1200px) {
 
@@ -151,21 +180,25 @@
 
 
     .contactContainer {
-        width: 90%;
         margin: 2rem;
+        justify-content: space-between;
     }
 
     .socialContainer {
-        width: 100%;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .socialNetwork {
         justify-content: space-around;
+        gap: 0;
     }
 
     .socialNetwork p {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .socialNetwork img {
+        width: 50%;
     }
 
     .form {
@@ -173,15 +206,25 @@
 
     }
 
-
     .input {
-        width: 100%;
+        width: 80%;
     }
 
     .message {
-        width: 100%;
+        width: 80%;
     }
 
+    .contactImage {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .contactImage img {
+        width: 90%;
+        height: 95%;
+        border-radius: 100%;
+
+    }
 
 
 }

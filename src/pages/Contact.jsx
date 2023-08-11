@@ -1,6 +1,7 @@
 import { SocialNetworks } from "../components/SocialNetworks";
 import styles from "../styles/contact.module.css";
 import emailjs from "@emailjs/browser";
+import akira from "../public/contact/akira.jpg";
 
 const Contact = () => {
   const sendEmail = (event) => {
@@ -26,6 +27,9 @@ const Contact = () => {
         <div className={styles.contactContainer}>
           <SocialNetworks />
           <form className={styles.form} onSubmit={sendEmail}>
+            <div className={styles.contactImage}>
+              <img src={akira} alt="contactImage" />
+            </div>
             <p>Would you be interested in contacting me?</p>
             <input
               className={styles.input}
