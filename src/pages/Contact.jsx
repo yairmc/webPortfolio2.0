@@ -51,7 +51,6 @@ const Contact = () => {
               cols="30"
               rows="7"
             />
-            <hr />
             <button className={styles.send}>Send Message</button>
           </form>
         </div>
