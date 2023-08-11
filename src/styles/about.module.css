@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 20px 0;
 }
 
 .header {
@@ -38,11 +38,8 @@
     height: auto;
     width: auto;
     text-align: center;
-    border-radius: 1rem;
-    box-shadow: -8px -8px 12px 0px #ffffff,
-        -4px -4px 8px 0px #ffffff,
-        8px 8px 12px 0px #BDC3C7BF,
-        4px 4px 8px 0px #BDC3C7BF;
+    border-bottom: 6px var(--primary) solid;
+
 }
 
 .meContainer {
@@ -142,7 +139,7 @@
     .softSkillsContainer {
         min-width: 90%;
         flex-direction: row-reverse;
-        gap: 1rem;
+        gap: 3rem;
     }
 
     .meContainer {
