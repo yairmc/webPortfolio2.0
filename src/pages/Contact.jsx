@@ -7,15 +7,28 @@ const Contact = () => {
   const sendEmail = (event) => {
     event.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_cuzy2d2",
-        "template_zjfc65a",
-        event.target,
-        "Wx8aufnrcDSow2smD"
-      )
-      .then((response) => console.log(response))
-      .catch((error) => console.log(error));
+    let validEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+    console.log(event.target.userMessage.value);
+    if (
+      validEmail.test(event.target.userEmail.value) &&
+      event.target.userName.value.length > 4 &&
+      event.target.userMessage.value.length > 4
+    ) {
+      alert("Email Sent");
+      emailjs
+        .sendForm(
+          "service_cuzy2d2",
+          "template_zjfc65a",
+          event.target,
+          "Wx8aufnrcDSow2smD"
+        )
+        .then((response) => console.log(response))
+        .catch((error) => console.log(error));
+      return true;
+    } else {
+      alert("Please fill in the fields correctly");
+      return false;
+    }
   };
 
   return (
